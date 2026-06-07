@@ -1,0 +1,58 @@
+aid: datos-entrerios-gov-ar
+name: Entre Rios Open Data
+description: >-
+  Entre Rios Open Data is a state government open-data portal for Argentina running CKAN.
+  It exposes the CKAN catalog API over approximately 121 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/datos-entrerios-gov-ar/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - State Government
+  - Argentina
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: datos-entrerios-gov-ar:catalog
+    name: Entre Rios Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Entre Rios Open Data, covering ~121 datasets. Base URL https://datos.entrerios.gov.ar/api/3/action/.
+    humanURL: https://datos.entrerios.gov.ar
+    baseURL: https://datos.entrerios.gov.ar/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://datos.entrerios.gov.ar
+      - type: x-api-endpoint
+        url: https://datos.entrerios.gov.ar/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.7.6'
+common:
+  - type: Website
+    url: https://datos.entrerios.gov.ar
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/datos-entrerios-gov-ar-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/datos-entrerios-gov-ar-rate-limits.yml
+  - type: FinOps
+    url: finops/datos-entrerios-gov-ar-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
