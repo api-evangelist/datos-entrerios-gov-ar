@@ -41,6 +41,8 @@ apis:
       - type: x-ckan-version
         value: '2.7.6'
 common:
+  - type: DomainSecurity
+    url: security/datos-entrerios-gov-ar-domain-security.yml
   - type: Website
     url: https://datos.entrerios.gov.ar
   - type: Documentation
